@@ -15,8 +15,11 @@ from setuptools import setup
 entry_points = """
 [console_scripts]
 # script_name = climath.module:function
-# For example:
-# fibonacci = climath.skeleton:run
+climath = climath.climath:run
+climath-add = climath.binary.add:run
+climath-subtract = climath.binary.subtract:run
+climath-multiply = climath.binary.multiply:run
+climath-divide = climath.binary.divide:run
 """
 
 
