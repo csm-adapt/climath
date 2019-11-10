@@ -1,8 +1,4 @@
-=======
-climath
-=======
-
-This is the documentation of **climath**.
+.. include:: ../README.rst
 
 .. note::
 
